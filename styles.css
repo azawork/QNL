@@ -468,12 +468,16 @@
 
   .product-card-img {
     width: 100%;
-   
+    
     overflow: hidden;
     background: var(--light-grey);
     position: relative;
     flex-shrink: 0;
   }
+
+  .tall-card .product-card-img {
+    height: 440px;
+}
 
   .product-card-img img {
     width: 100%;
